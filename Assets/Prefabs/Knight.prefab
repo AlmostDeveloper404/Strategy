@@ -239,6 +239,8 @@ MonoBehaviour:
   Indicator: {fileID: 2967994748373681766}
   NavMeshAgent: {fileID: 6284503463769246058}
   Price: 3
+  Health: 3
+  HealthBar: {fileID: 9007379344670227554, guid: c9e8515261e44144eb5b1bcce01bb032, type: 3}
 --- !u!195 &6284503463769246058
 NavMeshAgent:
   m_ObjectHideFlags: 0

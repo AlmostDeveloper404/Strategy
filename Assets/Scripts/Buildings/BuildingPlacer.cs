@@ -13,6 +13,9 @@ public class BuildingPlacer : MonoBehaviour
 
     public Dictionary<Vector2Int, Building> BuildingsPos = new Dictionary<Vector2Int, Building>();
 
+    public List<Building> amountOfBuildings = new List<Building>();
+
+    
     #region Singleton
     public static BuildingPlacer instance;
 
@@ -30,6 +33,12 @@ public class BuildingPlacer : MonoBehaviour
     private void Start()
     {
         plane = new Plane(Vector3.up, Vector3.zero);
+        for (int i = 0; i < amountOfBuildings.Count; i++)
+        {
+            int xCoordinate = Mathf.RoundToInt(amountOfBuildings[i].transform.position.x);
+            int zCoordinate = Mathf.RoundToInt(amountOfBuildings[i].transform.position.z);
+            InstallBuilding(xCoordinate,zCoordinate,amountOfBuildings[i]);
+        }
     }
     private void Update()
     {
@@ -89,15 +98,26 @@ public class BuildingPlacer : MonoBehaviour
             for (int z = 0; z < BuildingKey.ZCellSize; z++)
             {
                 Vector2Int Coordinate = new Vector2Int(xCoordinate+x,zCoordinate+z);
-
                 BuildingsPos.Add(Coordinate,BuildingKey);
             }
         }
     }
+   
 
     public void CreateBuilding(GameObject buildingPref)
     {
         GameObject newBuilding= Instantiate(buildingPref);
         CurrentBuilding = newBuilding.GetComponent<Building>();
+        AddToList(CurrentBuilding);
+    }
+
+    public void AddToList(Building createdBuilding)
+    {
+        amountOfBuildings.Add(createdBuilding);
+    }
+
+    public void RemoveFromList(Building destroyedBuilding)
+    {
+        amountOfBuildings.Add(destroyedBuilding);
     }
 }
