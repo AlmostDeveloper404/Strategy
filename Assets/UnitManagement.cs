@@ -22,6 +22,16 @@ public class UnitManagement : MonoBehaviour
 
     public List<Unit> currentUnitsInScene = new List<Unit>();
 
+    private void Start()
+    {
+        Unit[] unitsInScene = FindObjectsOfType<Unit>();
+        for (int i = 0; i < unitsInScene.Length; i++)
+        {
+            AddUnitToList(unitsInScene[i]);
+        }
+
+    }
+
 
     public void AddUnitToList(Unit unit)
     {

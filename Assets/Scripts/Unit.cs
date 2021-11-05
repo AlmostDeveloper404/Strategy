@@ -42,6 +42,7 @@ public class Unit : SelectableObject
 
     void Die()
     {
+        FindObjectOfType<Management>().Unselect(this);
         Destroy(healthBar.gameObject);
         unitManagement.RemoveUnitFromList(this);
         Destroy(gameObject);

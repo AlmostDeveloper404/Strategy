@@ -6,9 +6,11 @@ public class UnitRecruitmentButton : MonoBehaviour
     public Transform SpawnPoint;
 
     Resources resources;
+    UnitManagement unitManagement;
 
     private void Start()
     {
+        unitManagement = UnitManagement.instance;
         resources = Resources.instance;
     }
 
@@ -18,7 +20,8 @@ public class UnitRecruitmentButton : MonoBehaviour
         if (resources.Money>=wariorCost)
         {
             resources.Money -= wariorCost;
-            Instantiate(Pref, SpawnPoint.position, SpawnPoint.rotation);
+            GameObject newUnit= Instantiate(Pref, SpawnPoint.position, SpawnPoint.rotation);
+            unitManagement.AddUnitToList(newUnit.GetComponent<Unit>());
         }
         else
         {
