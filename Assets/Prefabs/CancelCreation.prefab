@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WariorIcon: {fileID: 6431177818037098494}
+  Counter: {fileID: 6431177817545725022}
+  Barack: {fileID: 0}
 --- !u!1 &6431177817545725008
 GameObject:
   m_ObjectHideFlags: 0

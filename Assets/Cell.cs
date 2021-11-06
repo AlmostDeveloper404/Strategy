@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class Cell : MonoBehaviour
 {
-    public Image WariorIcon; 
+    public Image WariorIcon;
+    public Image Counter;
     
     UnitManagement unitManagement;
     Resources resources;
@@ -36,6 +37,8 @@ public class Cell : MonoBehaviour
             return;
         }
         _timer -= Time.deltaTime;
+
+        Counter.fillAmount = _timer / _timeForCreation;
 
         
         if (_timer<0)

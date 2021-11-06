@@ -628,6 +628,7 @@ MonoBehaviour:
   BarackCanvas: {fileID: 1689806741}
   SpawnPoint: {fileID: 746205463}
   Cells: {fileID: 895882570}
+  wariorsInQueue: []
 --- !u!65 &5122034465834768549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -677,6 +678,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (6)
@@ -779,6 +784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (3)
@@ -969,6 +978,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (4)
@@ -1071,6 +1084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation
@@ -1173,6 +1190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (8)
@@ -1275,6 +1296,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (2)
@@ -1377,6 +1402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (1)
@@ -1479,6 +1508,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (7)
@@ -1581,6 +1614,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 895882570}
     m_Modifications:
+    - target: {fileID: 901866626432011853, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
+      propertyPath: Barack
+      value: 
+      objectReference: {fileID: 2532433840882369529}
     - target: {fileID: 6431177816660676906, guid: 82520990d9fb66545b0f5c9ca4999040, type: 3}
       propertyPath: m_Name
       value: CancelCreation (5)

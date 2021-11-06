@@ -131,6 +131,20 @@ MonoBehaviour:
   XCellSize: 2
   ZCellSize: 2
   Renderer: {fileID: 2573736074830247724}
+  TimeToAddMoney: 2
+--- !u!65 &491814131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968320662818159049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.59999996, y: 0.49999997, z: 0.59999996}
+  m_Center: {x: 0.10000005, y: 0.24999999, z: 0.099999994}
 --- !u!208 &491814132
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -147,19 +161,6 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.1, y: 0.25, z: 0.1}
   m_TimeToStationary: 0.5
---- !u!65 &491814131
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4968320662818159049}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.59999996, y: 0.49999997, z: 0.59999996}
-  m_Center: {x: 0.10000005, y: 0.24999999, z: 0.099999994}
 --- !u!114 &491814130
 MonoBehaviour:
   m_ObjectHideFlags: 0

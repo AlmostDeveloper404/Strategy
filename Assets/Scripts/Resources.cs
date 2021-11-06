@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public  class Resources : MonoBehaviour
+public class Resources : MonoBehaviour
 {
-    public int Money=10;
+    public int Money = 10;
+    public Text MoneyText;
     #region Singleton
     public static Resources instance;
 
@@ -18,5 +20,11 @@ public  class Resources : MonoBehaviour
 
     #endregion 
 
-    
+    public void AddMoney()
+    {
+        Money++;
+        MoneyText.text = "Δενόγθ: " + Money;
+    }
+
+
 }
