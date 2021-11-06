@@ -241,6 +241,7 @@ MonoBehaviour:
   Price: 3
   Health: 3
   HealthBar: {fileID: 9007379344670227554, guid: c9e8515261e44144eb5b1bcce01bb032, type: 3}
+  TimeForCreation: 3
   CurrentUnitState: 0
   DistanceToAttack: 2
   DistanceToFollow: 8.09

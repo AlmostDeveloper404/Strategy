@@ -13,6 +13,8 @@ public class Unit : SelectableObject
 
     public GameObject HealthBar;
     HealthBar healthBar;
+
+    public float TimeForCreation;
     public override void Start()
     {
         maxHealth = Health;
